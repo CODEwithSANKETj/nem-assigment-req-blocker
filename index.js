@@ -50,6 +50,6 @@ app.get('/',middlewear ,(req, res)=> {
   res.send(`Hello server request count <h1>${requestCounts.get(req.ip)}</h1>`);
 });
 
-app.listen(4040, () => {
-  console.log('Server running on 4040')
-});
+// app.listen(4040, () => {
+//   console.log('Server running on 4040')
+// });
